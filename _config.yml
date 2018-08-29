@@ -12,7 +12,7 @@ github_repo: "https://github.com/FujishiroOtone/FujishiroOtone.github.io.git" # 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "大切な人といつかまた巡り会えますように"
-sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-Otone.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
