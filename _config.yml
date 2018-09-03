@@ -99,7 +99,7 @@ service-worker: true
 # links
 links: [
     {
-        title: "我のGitHub",
+        title: "个人のGitHub",
         href: "https://github.com/FujishiroOtone	"
     },{
         title: "简书·Otone",
@@ -108,7 +108,7 @@ links: [
         title: "Twitter",
         href: "https://twitter.com/osuHatsuneMiku"
     },{
-        title: "我のbilibili",
+        title: "个人のbilibili",
         href: "https://space.bilibili.com/1880573/#/"
     }
 ]
