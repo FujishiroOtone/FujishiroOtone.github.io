@@ -7,7 +7,8 @@ description: "青春如遊戲，只是不能再讀檔"
 keyword: "Otone, Otone Blog, 前端, 动漫, 游戏"
 url: "http://FujishiroOtone.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/FujishiroOtone/FujishiroOtone.github.io.git" # you code repository
+github_repo: "https://github.com/FujishiroOtone/FujishiroOtone.github.io" # you code repository
+home_repo: "http://fujishiro.cn"
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
