@@ -5,6 +5,8 @@ layout: default
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
     <div class="container">
+		<!--APlayer-->
+		<link rel="stylesheet" href="APlayer.min.css">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
@@ -26,6 +28,15 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 postlist-container">
                 {{ content }}
             </div>
+			<!--APlayer-->
+			<script src="https://cdn.jsdelivr.net/npm/vconsole/dist/vconsole.min.js"></script><!--vconsole-->
+			<script src="https://cdn.jsdelivr.net/npm/hls.js/dist/hls.min.js"></script>
+			<script src="APlayer.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/color-thief-don@2.0.2/src/color-thief.js"></script>
+			<div id="player5" class="aplayer" style="display: none"></div>
+			<div id="player8" class="aplayer"></div>
+			<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+			<script src="demo.js"></script>
     <!-- Sidebar Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
