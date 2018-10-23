@@ -148,6 +148,14 @@
         <div id="player8" class="aplayer"></div>
 		<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
 		<script src="/js/demo.js"></script>
+        <!--pjax防刷新-->
+		<script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$(document).pjax('a[target!=_blank]', '.aplayer', {fragment:'.main', timeout:8000});
+			$(document).on('pjax:complete', function() {
+				callbank();
+				});
+		</script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
