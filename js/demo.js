@@ -26,7 +26,7 @@ const ap8 = new APlayer({
     fixed: true,
 });
 $.ajax({
-    url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=35798529',
+    url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=101952842',
     success: function (list) {
         ap8.list.add(JSON.parse(list));
     }
