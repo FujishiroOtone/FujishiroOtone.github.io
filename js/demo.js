@@ -12,7 +12,7 @@ const ap5 = new APlayer({
     audio: [
         ]
 });
-const colorThief = new ColorThief();
+
 
 
 
