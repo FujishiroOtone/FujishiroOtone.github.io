@@ -9,7 +9,7 @@
      }
      else {
          $('[rel="icon"]').attr('href', "/favicon.ico");
-         document.title = '嗯?~' + OriginTitle;
+         document.title = 'wryyyyyyyyyyyyyyyyyyyyyyyyy' + OriginTitle;
          titleTime = setTimeout(function () {
              document.title = OriginTitle;
          }, 2000);
